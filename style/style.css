@@ -96,3 +96,98 @@ img{
  font-weight: 600;
 
 }
+
+/* card */
+.card_section{
+    margin-top: 2.5rem;
+    background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0px;
+}
+.card_items{
+    display: flex;
+    gap: 8rem; 
+    margin-top: 50px;
+
+}
+.card_content{
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+}
+.card{
+    text-align: center;
+    background: linear-gradient(to bottom, #DEF5FF 0%, #f9f9f9 70%);
+    padding: 1rem;
+    border-radius: 12px;
+ 
+}
+.card2{
+    text-align: center;
+    background: linear-gradient(to bottom, #FFF4DC 0%, #f9f9f9 70%);
+    padding: 1rem;
+    border-radius: 12px;
+ 
+}
+.card3{
+    text-align: center;
+    background: linear-gradient(to bottom, #F2E8FF 0%, #f9f9f9 70%);
+    padding: 1rem;
+    border-radius: 12px;
+ 
+}
+.card h1{
+    margin: 5px 0px 20px 0px;
+}
+.card p{
+font-size: 17px;
+   color: #909090;
+   margin: 25px;
+}
+.card h3{
+    color: #3ebffb;
+    margin-bottom: 40px;
+}
+h3.card2_read {
+    color: #fea301;
+    margin-bottom: 40px;
+}
+h3.card3_read{
+    color: #bc8ff9;
+    margin-bottom: 40px;
+}
+/* arrow */
+.arrow{
+    text-align: center;
+}
+.arrow .left_arrow {
+    background-color: #fea301;
+    width: 60px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 50%;
+} 
+ .arrow .right_arrow {
+    background-color: #fea301;
+    width: 60px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+   
+/* .arrow span{
+    background-color: #fea301;
+    width: 60px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}  */
