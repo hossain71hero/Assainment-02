@@ -92,9 +92,22 @@
             border-radius: 40px;
             margin-left: -162px;
             position: absolute;
-            margin-top: 83px;
+            margin-top: 91px;
             color: white;
             font-size: 12px;
+        }
+    }
+    @media screen and (max-width:393px) {
+        .gridimg1 p {
+            background-color: #95b226;
+            display: inline;
+            padding: 10px;
+            border-radius: 40px;
+            margin-left: -132px;
+            position: absolute;
+            margin-top: 78px;
+            color: white;
+            font-size: 11px;
         }
     }
     @media screen and (max-width:373px) {
