@@ -173,29 +173,23 @@ h3.card3_read{
 /* arrow */
 .arrow{
     text-align: center;
-   
+    margin-top: 35px;
 }
-.arrow i{
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+.arrow1{
+    background-color: #fea301;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 0px 5px;
+    color: white;
+}
+.arrow2{
+    background-color: #fea301;
+    padding: 15px;
+    border-radius: 50%;
+    color: white;
 }
 
-.arrow .left_arrow {
-    background-color: #fea301;
-    width: 60px;
-    height: 50px;
-    margin-top: 30px;
-    border-radius: 50%;
-} 
- .arrow .right_arrow {
-    background-color: #fea301;
-    width: 60px;
-    height: 50px;
-    margin-top: 30px;
-    border-radius: 50%;
-    margin-left: 10px;
-}
+
    
 
   /* story_ */
