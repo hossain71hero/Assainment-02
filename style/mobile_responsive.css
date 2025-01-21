@@ -4,10 +4,21 @@
         display: none;
     }
     .banner {
-        
+        padding: 0px 10px;
         flex-direction: column-reverse;
     }
-   
+    .container{
+        width: 100%;
+        
+    }
+    .full_container{
+       
+    }
+  
+    .header{
+        border: 1px solid orange;
+        
+    }
     .banner_content h1 {
         font-size: 2.5rem;
         text-align: center;
@@ -23,6 +34,7 @@
     /* card */
     .card_items {
         flex-direction: column;
+        padding: 0px 10px;
         gap: 1rem;
     }
     .card_content{
@@ -34,6 +46,7 @@
     }
     .gridImg{
         grid-template-columns: repeat(2,1fr);
+        padding: 0px 10px;
     }
     .logu_menu i{
         display: block;
@@ -43,14 +56,17 @@
         width: 100%;
        
     }
+    .header i{
+        margin-right: 15px;
+    }
     .gridimg1 p {
         background-color: #95b226;
         display: inline;
         padding: 10px;
         border-radius: 40px;
-        margin-left: -192px;
+        margin-left: -209px;
         position: absolute;
-        margin-top: 109px;
+        margin-top: 140px;
         color: white;
     }
     /* foter */
@@ -77,9 +93,9 @@
             display: inline;
             padding: 10px;
             border-radius: 40px;
-            margin-left: -167px;
+            margin-left: -196px;
             position: absolute;
-            margin-top: 102px;
+            margin-top: 128px;
             color: white;
         }
        
@@ -90,9 +106,9 @@
             display: inline;
             padding: 10px;
             border-radius: 40px;
-            margin-left: -162px;
+            margin-left: -170px;
             position: absolute;
-            margin-top: 91px;
+            margin-top: 117px;
             color: white;
             font-size: 12px;
         }
@@ -103,9 +119,9 @@
             display: inline;
             padding: 10px;
             border-radius: 40px;
-            margin-left: -132px;
+            margin-left: -145px;
             position: absolute;
-            margin-top: 78px;
+            margin-top: 95px;
             color: white;
             font-size: 11px;
         }
