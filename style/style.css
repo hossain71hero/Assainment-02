@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-
-
 *{
     margin: 0;
     padding: 0;
@@ -9,6 +7,10 @@ body{
      font-family: "Quicksand", serif;
      /* width: 85%;
      margin:  0 auto; */
+}
+
+.full_container{
+    background: linear-gradient(to bottom, #ffffff 40%, #fff0d5 60%);
 }
 .container{
     width: 80%;
@@ -26,6 +28,9 @@ img{
 .logu{
     display: flex;
     align-items: center;
+}
+.logu_menu i{
+    display: none;
 }
 .nav {
     display: flex;
@@ -196,7 +201,7 @@ h3.card3_read{
     background-size: cover;
   
     background-image: url(../assets/bg.png);
-    background: linear-gradient(to bottom, #ffffff 0%, #fff0d5 70%);
+   
     
   }
   .story_img{
@@ -332,7 +337,7 @@ h3.card3_read{
    margin-top: -100px;
     background-color:#01acfd ;
     color: white;
-    padding: 10px;
+    padding: 50px 190px;
     align-items: center;
 }
 .foter_content{
