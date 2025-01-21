@@ -28,4 +28,95 @@
     .card_content{
         display: none;
     }
+    /* gridImg */
+    .boro_img_story{
+        display: none;
+    }
+    .gridImg{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .gridImg {
+        
+        width: 100%;
+       
+    }
+    .gridimg1 p {
+        background-color: #95b226;
+        display: inline;
+        padding: 10px;
+        border-radius: 40px;
+        margin-left: -192px;
+        position: absolute;
+        margin-top: 109px;
+        color: white;
+    }
+    /* foter */
+
+    .foter_content{
+        flex-direction: column;
+    }
+    .first_column {
+        width: 95%;
+    }
+    .icon img{
+        width: 50px;
+        height: 50px;
+    }
+    .third_column{
+        margin-top: 30px;
+    }
+    @media screen and (max-width:530px) {
+        .gridimg1 p {
+            background-color: #95b226;
+            display: inline;
+            padding: 10px;
+            border-radius: 40px;
+            margin-left: -167px;
+            position: absolute;
+            margin-top: 102px;
+            color: white;
+        }
+    }
+    @media screen and (max-width:480px) {
+        .gridimg1 p {
+            background-color: #95b226;
+            display: inline;
+            padding: 10px;
+            border-radius: 40px;
+            margin-left: -162px;
+            position: absolute;
+            margin-top: 83px;
+            color: white;
+        }
+    }
+    @media screen and (max-width:373px) {
+        .gridimg1 p {
+            background-color: #95b226;
+            display: inline;
+            padding: 10px;
+            border-radius: 40px;
+            margin-left: -126px;
+            position: absolute;
+            margin-top: 71px;
+            color: white;
+            font-size: 12px;
+        }
+    }
+    @media screen and (max-width:323px) {
+        .gridimg1 p {
+            background-color: #95b226;
+            display: inline;
+            padding: 10px;
+            border-radius: 40px;
+            margin-left: -99px;
+            position: absolute;
+            margin-top: 56px;
+            color: white;
+            font-size: 9px;
+        }
+        .gridimg1  h4 {
+            padding: 40px 5px;
+            width: 100;
+        }
+    }
 }
