@@ -11,6 +11,9 @@
         width: 100%;
         
     }
+    .logu h1{
+        display: none;
+    }
     .full_container{
        
     }
